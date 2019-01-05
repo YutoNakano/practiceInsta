@@ -12,6 +12,8 @@
 		0113003921DCE1B900BE0FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0113003721DCE1B900BE0FC4 /* Main.storyboard */; };
 		0113003B21DCE1BA00BE0FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0113003A21DCE1BA00BE0FC4 /* Assets.xcassets */; };
 		0113003E21DCE1BA00BE0FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0113003C21DCE1BA00BE0FC4 /* LaunchScreen.storyboard */; };
+		0113004621DCFD5000BE0FC4 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0113004521DCFD5000BE0FC4 /* FilterViewController.swift */; };
+		015F3E2721DDA74B003A00ED /* SNSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F3E2621DDA74B003A00ED /* SNSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0113003A21DCE1BA00BE0FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0113003D21DCE1BA00BE0FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0113003F21DCE1BA00BE0FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0113004521DCFD5000BE0FC4 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		015F3E2621DDA74B003A00ED /* SNSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0113003A21DCE1BA00BE0FC4 /* Assets.xcassets */,
 				0113003C21DCE1BA00BE0FC4 /* LaunchScreen.storyboard */,
 				0113003F21DCE1BA00BE0FC4 /* Info.plist */,
+				0113004521DCFD5000BE0FC4 /* FilterViewController.swift */,
+				015F3E2621DDA74B003A00ED /* SNSViewController.swift */,
 			);
 			path = practiceInsta;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0113004621DCFD5000BE0FC4 /* FilterViewController.swift in Sources */,
+				015F3E2721DDA74B003A00ED /* SNSViewController.swift in Sources */,
 				0113003621DCE1B900BE0FC4 /* ViewController.swift in Sources */,
 				0113003421DCE1B900BE0FC4 /* AppDelegate.swift in Sources */,
 			);
