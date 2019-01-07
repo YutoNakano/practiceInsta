@@ -16,7 +16,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hoge")
+        
         // ユーザーに許可を促す.
         PHPhotoLibrary.requestAuthorization { (status) -> Void in
             
